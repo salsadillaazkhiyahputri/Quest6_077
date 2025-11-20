@@ -29,7 +29,7 @@ fun DataApp(
     modifier: Modifier,
     viewModel: SiswaViewModel = viewModel(),
     navController: NavHostController = rememberNavController(),
-    
+
 ){
     Scaffold { isiRuang->
         val uiState = viewModel.statusUI.collectAsState()
@@ -39,7 +39,7 @@ fun DataApp(
 
             modifier = Modifier.padding(isiRuang)
         ) {
-            composable(route = Navigasi.Formulir.name) {
+            composable (route = Navigasi.Formulir.name) {
                 val konteks = LocalContext.current
                 FormIsian(
                     pilihanJK = JenisK.map { id -> konteks.resources.getString(id)},
