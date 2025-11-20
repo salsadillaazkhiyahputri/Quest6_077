@@ -41,8 +41,7 @@ import kotlin.collections.forEach
 
 @Composable
 fun FormIsian(
-
-     pilihanJK:List<String> ,
+    pilihanJK:List<String> ,
     OnSubmitBtnClick : (MutableList<String>) -> Unit,
      modifier: Modifier = Modifier
 ){
