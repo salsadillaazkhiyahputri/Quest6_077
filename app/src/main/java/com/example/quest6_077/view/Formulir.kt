@@ -78,13 +78,13 @@ fun FormIsian(
                     txtNama = it
                 }
             )
-            
+
             HorizontalDivider(modifier = Modifier
                 .padding(20.dp)
                 .width(250.dp), thickness = Thickness,color =
                 Color.Red)
             Row{
-                pilihanJK.forEach { item ->
+                pilihanJK.forEach {item ->
                     Row(
                         modifier = Modifier.selectable(
                         selected = txtGender == item,
