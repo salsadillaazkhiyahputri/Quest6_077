@@ -48,7 +48,8 @@ fun FormIsian(
 
     var txtNama by rememberSaveable { mutableStateOf("") }
     var txtAlamat by remember { mutableStateOf("") }
-
+    var txtGender by remember { mutableStateOf("") }
+     
     Scaffold (modifier= Modifier,
         {
             TopAppBar(
