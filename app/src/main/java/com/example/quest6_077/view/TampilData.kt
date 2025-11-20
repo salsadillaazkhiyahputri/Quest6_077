@@ -32,6 +32,7 @@ import kotlin.text.uppercase
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TampilData(
+
     statusUiSiswa : Siswa,
     onBackBtnClick:()-> Unit
 ){
