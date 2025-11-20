@@ -37,6 +37,8 @@ fun TampilData(
 ){
     val items = listOf(
         Pair(stringResource(id = R.string.nama_lengkap), statusUiSiswa.nama),
+        Pair(stringResource(id = R.string.gender), statusUiSiswa.gender),
+
 
     )
     Scaffold (modifier = Modifier,
